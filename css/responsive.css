@@ -1,0 +1,133 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	.navbar { position: relative; }
+	.navbar-toggle { display: block;  background-color: #292929; margin: 13px 0px 13px 30px; }
+	.navbar-collapse { padding: 0px 0px 0px 0px; width: 260px; background-color: #191919; box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10); border: none; position: absolute; left: -100%; top: 100%; z-index: 9999; margin: 10px 0px 0px 0px; }
+	#music-header .collapse { display: none; } #music-header .collapse.in { display: block; } .music-thumbnail { margin-bottom: 0px; }
+	.navbar-nav > li:first-child > a { padding-left: 22px; }
+	.navbar-nav { margin: 0px; }
+	.music-dropdown-menu { float: left; width: 100%; position: relative; opacity: 1; visibility: visible; box-shadow: none; }
+	.music-dropdown-menu,.music-megamenu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.music-megamenu { float: left; min-width: 100%; position: relative; right: auto; top: auto; padding: 0px; box-shadow: none; opacity: 1; visibility: visible; }
+	.music-megamenu [class*="col-md-"] { width: 100%; float: left; margin-bottom: 15px; }
+	.music-megamenu .row { margin: 0px; } .navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 10px 20px; }
+	.navbar-nav > li { width: 100%; }
+	/* Main Grid */
+	.music-main-content .col-md-4,.music-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.music-main-content .col-md-7,.music-main-content .col-md-5,.music-main-content .col-md-6 { width: 100%; float: left; margin-bottom: 30px; }
+	.col-md-12 { float: left; width: 100%; }
+	/* Banner */
+	.music-banner-caption { display: none; }
+	.music-player-thumb,.music-banner-player .jp-audio { width: 100%; }
+	.music-playlist-btn { top: -24%; left: 50%; } .music-banner-player { height: auto; }
+	/* Content */
+	.music-bay-btn { top: 5px; right: 5px; margin-top: 0px; }
+	.music-albumplayer .jp-interface { width: 86%; }
+	.music-artist-list ul li figure { width: 375px; } .music-artist-list ul li figure ~ .music-artist-detail { margin-left: 420px; padding-top: 0px; }
+	.music-faq-accordion .panel-title a { line-height: 1.5; }
+	/* Footer */
+	.music-footer-logo:after { display: none; }
+	.music-footer-logo { width: 100%; text-align: center; }
+	.music-footer-newslatter { padding: 39px 0px; } .music-footer-newslatter { text-align: center; }
+	.music-footer-newslatter h2,.music-footer-newslatter form { float: none; display: inline-block; }
+	.music-footer-newslatter h2 { padding: 0px 0px 20px 0px; }
+	.music-footer-widget { padding-bottom: 60px; }
+	.music-footer-widget .widget { float: none; display: inline-block; vertical-align: top; width: 50%; margin: 0px -4px 40px 0px; }
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.navbar { position: relative; }
+	.navbar-toggle { display: block;  background-color: #292929; margin: 13px 0px 13px 30px; }
+	.navbar-collapse { padding: 0px 0px 0px 0px; width: 260px; background-color: #191919; box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10); border: none; position: absolute; left: 40%; top: 100%; z-index: 9999; margin: 10px 0px 0px 0px; }
+	#music-header .collapse { display: none; } #music-header .collapse.in { display: block; } .music-thumbnail { margin-bottom: 0px; }
+	.navbar-nav > li:first-child > a { padding-left: 22px; }
+	.navbar-nav { margin: 0px; }
+	.music-dropdown-menu { float: left; width: 100%; position: relative; opacity: 1; visibility: visible; box-shadow: none; }
+	.music-dropdown-menu,.music-megamenu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.music-megamenu { float: left; min-width: 100%; position: relative; right: auto; top: auto; padding: 0px; box-shadow: none; opacity: 1; visibility: visible; }
+	.music-megamenu [class*="col-md-"] { width: 100%; float: left; margin-bottom: 15px; }
+	.music-megamenu .row { margin: 0px; } .navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 10px 20px; }
+	.navbar-nav > li { width: 100%; }
+	.music-logo,.music-header-one .music-right-section { width: 100%; }
+	.music-header-one { position: static; float: left; width: 100%; background-color: #262626; }
+	.music-top-strip p { padding-left: 0px; }
+	/* Main Grid */
+	.music-main-content .col-md-4,.music-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.music-main-content .col-md-7,.music-main-content .col-md-5,.music-main-content .col-md-6 { width: 100%; float: left; margin-bottom: 30px; }
+	.col-md-12 { float: left; width: 100%; }
+	/* Banner */
+	.music-banner-caption { display: none; }
+	.music-player-thumb,.music-banner-player .jp-audio,.music-banner-player .jp-controls,.music-player-wrap,.jp-volume-controls,.jp-playlist { width: 100%; }
+	.music-banner-player { height: auto; }
+	.music-banner-player .jp-controls { text-align: center; padding: 30px 0px 0px 0px; } .music-banner-player .jp-volume-controls { padding: 20px 0px 20px 0px; }
+	.music-playlist-btn { bottom: -30px; left: 50%; top: auto; z-index: 8; }
+	div.jp-type-playlist div.jp-playlist a.jp-playlist-item { font-size: 12px; }
+
+	/* Content */
+	.music-bay-btn { top: 5px; right: 5px; margin-top: 0px; }
+	.music-event-options li { margin-bottom: 12px; }
+	.music-album-medium .music-album-list figure { width: 100%; }
+	.music-album-medium .music-album-list-text { margin-left: 0px; float: left; width: 100%; }
+	.music-albumplayer .jp-interface,.music-albumplayer .jp-controls,.music-albumplayer .music-player-wrap,.music-albumplayer .jp-volume-controls { width: 100%; } .music-albumplayer .jp-type-playlist { height: auto; }
+	.music-albumplayer .music-player-wrap { padding: 20px 20px 20px 20px; } .music-albumplayer .jp-duration { position: static; } .music-albumplayer .jp-volume-controls { padding: 0px 20px 30px 20px; }
+	.music-artist-list ul li figure { width: 100%; } .music-artist-list ul li figure ~ .music-artist-detail { margin: 0px; float: left; width: 100%; }
+	.music-subheader { padding: 60px 0px 70px 0px; min-height: auto; }
+	.music-event-countdown figcaption { position: static; float: left; width: 100%; background-color: #000; } .is-countdown { padding-top: 10px; }
+	.countdown-section { margin: 15px 0px; }
+	.music-admin-post figure ~ section { margin-left: 0px; float: left; width: 100%; margin-top: 15px; }
+	.music-faq-accordion .panel-title a { line-height: 1.5; }
+	.music-search-result ul li figure,.music-shop-list figure { width: 100%; } .music-search-result ul li figure ~ .music-result-text,.music-shop-list figure ~ .music-shop-list-text { margin-left: 0px; float: left; width: 100%; }
+	.music-shop-list-text { padding-bottom: 30px; } .music-canceled-list .music-shop-list-wrap:after { font-size: 40px; }
+	.music-images,.music-summery { width: 100%; }
+
+	/* Footer */
+	.music-footer-logo:after { display: none; }
+	.music-footer-logo { width: 100%; text-align: center; }
+	.music-footer-newslatter { padding: 39px 0px; } .music-footer-newslatter { text-align: center; }
+	.music-footer-newslatter h2,.music-footer-newslatter form,.music-footer-newslatter form label { float: none; display: inline-block; }
+	.music-footer-newslatter form { width: 100%; text-align: center; } .music-footer-newslatter form input[type="text"] { width: 100%; margin-bottom: 20px; }
+	.music-footer-newslatter h2 { padding: 0px 0px 20px 0px; }
+	.music-footer-widget { padding-bottom: 60px; }
+	.music-footer-widget .widget { float: none; display: inline-block; vertical-align: top; width: 50%; margin: 0px -4px 40px 0px; }
+	.music-copyright { text-align: center; padding: 45px 0px 20px 0px; } .music-copyright p,.music-social-network { float: none; display: inline-block; }
+	.music-footer-widget .row { margin: 0px -15px; } .music-footer-widget .widget { padding: 0px 15px; }
+	
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+	/* Header */
+	.music-top-strip { text-align: center; } .music-top-strip p,.music-strip-social { float: none; display: inline-block; }
+	.music-strip-social li { margin: 0px 0px 10px 28px; }
+	.music-event-list-wrap { padding: 250px 20px 30px 30px; }
+	.music-cart-box { width: 100%; right: -6px; }
+	.music-fancy-title h2 { font-size: 26px; }
+	.music-partner-slider .slick-arrow.slick-arrow-right { bottom: 117px; }
+	.music-partner-slider { padding: 150px 0 40px; }
+	.music-comment figure ~ .music-comment-text { margin-left: 0px; width: 100%; float: left; margin-top: 15px; }
+	.fc-toolbar .fc-button-group { margin-top: -79px; }
+	.music-ticket-heading li,.music-ticket-section li { width: 100%; }
+	.music-blog-social-network li { margin-top: 15px; }
+	.music-detail-post figure figcaption { padding: 20px 20px 20px 70px; } .music-detail-post .music-next-post figcaption { padding: 20px 70px 30px 20px; }
+	.music-canceled-list .music-shop-list-wrap:after { left: 0; } .music-contactus-form ul li { width: 100%; }
+
+	.music-main-content .col-md-4,.music-main-content .col-md-3,.music-footer-widget .widget { margin-right: 0px; width: 100%; }
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+
+}

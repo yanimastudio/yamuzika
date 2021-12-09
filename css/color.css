@@ -1,0 +1,32 @@
+
+.music-color, .music-colorhover:hover,.music-megamenu li h4,.music-megalist li:hover a,.music-dropdown-menu > li:hover > a,.navbar-nav > li:hover > a,.navbar-nav > li.active > a,.music-dropdown-menu li a:before,
+.song-title small,.jp-playlist li.jp-playlist-current:before,div.jp-type-playlist div.jp-playlist a.jp-playlist-current,div.jp-type-playlist div.jp-playlist li:hover > a,.music-footer-widget h2,
+.music-artist-grid figure figcaption a:hover,.music-breadcrumb li.active,.widget_categories ul li:hover a,.widget_categories ul li:hover:before,.music-replay-btn,.music-form input[type="submit"],
+.music-form label i,.music-select select,.music-select:after,.music-result-text .music-beats-link,.music-social-artist li a:hover,.music-gallery-filterable ul li a,
+.music-serviec-rape i,.music-serviec-rape:hover a,.music-serviec-rape:hover a > i,.music-modern-gallery figcaption .music-gallery-link,.music-contact-list i,.music-contactus-form input[type="submit"],
+.music-submit > i,.music-counter ul li i,.music-artist-classic figcaption .music-artist-link,.artist-related-network li a i:hover,.music-gallery-add {
+    color: #56ee0f;
+}
+.music-bgcolor, .music-bgcolorhover:hover,.music-modren-btn:after,.jp-play-bar,.jp-play-bar:before,.music-playlist-btn:hover,.music-selected-color .music-playlist-btn,.music-fancy-title h2:after,
+.music-static-btn i:after,ul li:hover .music-bay-btn,.music-featured:after,.music-blog-grid figure figcaption a:hover,.music-pagination li:hover a,.music-pagination li span.current,.widget_categories ul li a:before,
+.music-tags a:hover,.music-section-heading h2:before,ul li:hover .music-post-arrow,.music-form label i:after,.fc-widget-header,.fc-toolbar button,.fc-event,.tooltipevent span,.widget_calendar caption,
+.music-cart-btn i:after,.music-images-list .slick-arrow:hover,.nav-tabs li.active a,.music-form-result form input[type="submit"],
+.music-error-page form input[type="submit"],.music-price span,.music-price span > .music-tag-left,.music-price span > .music-tag-right,.music-gallery-filterable ul li a:hover,
+.music-gallery-text a i,.widget_comment_form ul li input[type="submit"],.price-plan-btn,.music-serviec-rape:hover a:before,.music-faq-accordion .panel-title a,
+.music-prformance-detail:before,.music-prformance-detail:after,.music-prformance-detail span:before,.music-prformance-detail span:after,.music-artist-classic figure:hover .music-artist-classic-text,
+.music-related-detail ul li:hover figure .music-artist-text,.widget_artist_form > ul input[type="submit"],.music-gallery-filterable ul li a.is-checked {
+    background-color: #56ee0f;
+}
+.music-bordercolor, .music-bordercolorhover:hover,.music-dropdown-menu,.music-modal-search form input[type="text"],.jp-playlist,.slick-dots li.slick-active button,.music-artist-grid figure figcaption a:hover,
+.music-read-more,blockquote,.music-form input[type="submit"],.music-select:before,.music-select select,.music-gallery-filterable ul li a {
+    border-color: #56ee0f;
+}
+
+.music-backtop-btn:before,.music-backtop-btn:after,.music-pagination li a.prev:hover:before,.fc-toolbar button.fc-prev-button:before,.fc-toolbar button.fc-next-button:before,
+.music-event-label:after,.music-services-price-list:before,.music-modern-gallery figure figcaption:before,.music-modern-gallery figure:hover figcaption:before,
+.music-contactus-form input[type="submit"] {
+	border-bottom-color: #56ee0f;
+}
+.music-featured:before,.music-pagination li a.next:hover:before,.nav-tabs li.active a:before,.music-event-label:before,.music-tag-left:before,.music-tag-right:after {
+	border-top-color: #56ee0f;
+}
