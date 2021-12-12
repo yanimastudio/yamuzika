@@ -8,14 +8,19 @@ jQuery(document).ready(function() {
         //php writePlaylist('Y',' (!!duration!!)'); 
         //php writePlaylist('Y',"<span style='color:#828282'> (!!duration!!)</span>");
         {
-            title: "Bu Gan Shou (Couldn't say - ft. Yaongaku, Denis Kutepov) <small>Namusura</small> <span>05:44</span>",
-            mp3: "music/Namu_song5_lamlai_withvocal.mp3",
-            poster: "extra-images/banner-player-1.jpg",
+            title: "New love in the dream <small>(Namusura ft. Yaongaku)</small> <span>05:44</span>",
+            mp3: "music/Namu-NewLoveInTheDream-verAmbient.mp3",
+            poster: "extra-images/yaongaku/namu-album-art.jpg",
             oga: "https://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
         }, {
-            title: "Fu (Father - ft. Yaongaku, Denis Kutepov) <small>Namusura</small> <span>04:24</span>",
+            title: "Couldn't say <small>(Namusura ft. Yaongaku, Denis Kutepov)</small> <span>05:44</span>",
+            mp3: "music/Namu_song5_lamlai_withvocal.mp3",
+            poster: "extra-images/yaongaku/namu-album-art.jpg",
+            oga: "https://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+        }, {
+            title: "Father <small>(Namusura ft. Yaongaku, Denis Kutepov)</small> <span>04:24</span>",
             mp3: "music/Namu_song2_lamlai_withvocal.mp3",
-            poster: "extra-images/banner-player-2.jpg",
+            poster: "extra-images/yaongaku/namu-album-art.jpg",
             oga: "https://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
         }
     ],
@@ -120,7 +125,7 @@ jQuery(document).ready(function() {
 
     var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
     {
-        m4a: "https://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+        m4a: "music/Namu_song2_lamlai_withvocal.mp3",
         oga: "https://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
     }, {
         cssSelectorAncestor: "#cp_container_1",
@@ -153,7 +158,7 @@ jQuery(document).ready(function() {
 
     var myCirclePlayer = new CirclePlayer("#jquery_jplayer_4",
     {
-        m4a: "https://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+        m4a: "music/Namu_song5_lamlai_withvocal.mp3",
         oga: "https://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
     }, {
         cssSelectorAncestor: "#cp_container_4",
@@ -164,7 +169,7 @@ jQuery(document).ready(function() {
 
     var myCirclePlayer = new CirclePlayer("#jquery_jplayer_5",
     {
-        m4a: "https://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+        m4a: "music/Namu-NewLoveInTheDream-verAmbient.mp3",
         oga: "https://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
     }, {
         cssSelectorAncestor: "#cp_container_5",
